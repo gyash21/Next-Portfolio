@@ -1,4 +1,4 @@
-const Link = ({ 
+const ExternalLink = ({ 
     href, 
     children, 
     className } :{
@@ -12,4 +12,4 @@ const Link = ({
             </a>
     );
 
-export default Link;
+export default ExternalLink;

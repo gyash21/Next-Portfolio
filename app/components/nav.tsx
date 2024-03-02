@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
+import NextLink from 'next/link';
 import { SiGithub, SiTwitter } from 'react-icons/si';
 import { ThemeProvider } from 'next-themes';
 
@@ -15,12 +15,12 @@ function NavItem({ href, text, icon
     }) {
         const Logo = icon;
         return (
-            <Link href={href}>
+            <NextLink href={href}>
                 <div className='content-center p-2 sm:px-3 sm:py-2 rounded-lg
                 hover:bg-gray-200 dark:hover:bg-gray-800 transition-all flex flex-row'>
                     <Logo/> <span className='px-3 capsize'>{text}</span>
                 </div>
-            </Link>
+            </NextLink>
         )
     }
 
