@@ -63,12 +63,12 @@ export default function Container(props: { children: any }) {
             <div className="flex ml-[-0.60rem]">
               <NavItem
                 icon={SiTwitter}
-                href="https://twitter.com/___Nadaaa"
+                href="https://twitter.com/gyash21"
                 text="Twitter"
               />
               <NavItem
                 icon={SiGithub}
-                href="https://github.com/NadaaFarook"
+                href="https://github.com/gyash21"
                 text="Github"
               />
             </div>
