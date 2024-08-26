@@ -86,8 +86,9 @@ export default function Home() {
                 {" "}
                 Fullstack Engineer{" "}
               </span>
-              having built many projects in past 1 year. Currently building
-              internal tools for companies and simplified their workflow with AI
+              with a experience of more than 1 year in building innovative and pixel-perfect UIs. I am passionate about collaborating with teams to build products that are scalable, user-friendly, and accessible. 
+              <br />
+              You can find me solving complex problems, building side projects, and writing blogs in my free time.
             </p>
             <span className="h-8" />
             <div className="mt-3 text-gray-600 dark:text-gray-400 mb-16 ">
